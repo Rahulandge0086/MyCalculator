@@ -1,0 +1,132 @@
+body{
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.gradient-background {
+    background: linear-gradient(to left, #73c8a9, #232529);}
+  
+.container{
+    display : float;
+}
+
+.title{
+    display : flex;
+    color : white;
+    height : auto;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    font-weight: bold;
+    background-color: black;
+}
+.ioBox{
+    display: flex;
+    width : 100em;
+    height : 100px;
+    background-color: white;
+    border: 2px solid black;
+    justify-content:end;
+    align-items: end;
+    font-family :'Times New Roman', Times, serif;
+    font-size: x-large;
+    border-radius: 10px;
+}
+.userip{
+    display: flex;
+    background: linear-gradient(to right, #1f1c2c, #928dab);    
+    width : 20em;
+    height :35em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    padding : 5px;
+    size: initial;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-top: 10vh;
+}
+
+.info{
+    margin-top: 5vh;
+    margin-left : 50px;
+    font-size: larger;
+    color: white;
+    float : left;
+}
+.but{
+    font-family :'Times New Roman', Times, serif;
+    height: 5.5em;
+    width : 5em;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.Lmargin{
+    margin-left: 10px;
+}
+
+.ope{
+    background: yellow;
+}
+
+
+.large{
+    width : 10em;
+}
+
+h1{
+    padding: 10px;
+    background: linear-gradient(to right, red, #930000);
+    border-radius: 2vh;
+}
+
+select{
+    display:flex;
+    height: 5.5em;
+    width : 5em;
+    font-weight: bold;
+    border-radius: 10px;
+    text-wrap : wrap;
+}
+
+.con{
+    display: flex;
+    justify-content: space-around;
+    gap : 40vh;
+}
+
+@media(max-width :600px)
+{
+    .info{
+        margin-top : 10vh;
+    }
+
+    .title{
+        font-size: 4rem;
+        height: auto;
+    }
+
+    .con{
+        display: block;
+    }
+
+    .userip{
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+}
