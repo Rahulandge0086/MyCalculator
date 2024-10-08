@@ -49,6 +49,8 @@ body{
     width : 20em;
     height :35em;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 1px;
     padding : 5px;
     size: initial;
@@ -124,7 +126,7 @@ select{
     }
 
     .userip{
-        margin-left: 50px;
+        margin-left : 8vh;
         padding: 0px;
         justify-content: center;
     }
