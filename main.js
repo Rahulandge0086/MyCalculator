@@ -97,7 +97,7 @@ for(var y=0;y<document.querySelectorAll(".but").length;y++)
                calculate(ip1,ip2,op);
             }
             else{
-               if(this.innerHTML != "C")
+               if(this.innerHTML != "C" && this.innerHTML != "(-")
                {
                   console.log(arr);
                   console.log(TriEqu);
@@ -112,16 +112,28 @@ for(var y=0;y<document.querySelectorAll(".but").length;y++)
                   if(TriEqu == 1)
                   {
                      z = z * Math.PI/180;
+                        if(count==1)
+                        {
+                           z=-z;
+                        }
                      calculate(0,z,"sin");
                   }
                   else if(TriEqu == 2)
                   {
                      z = z * Math.PI/180;
+                        if(count==1)
+                        {
+                           z=-z;
+                        }
                      calculate(0,z,"cos");
                   }
                   else if(TriEqu == 3)
                   {
                      z = z * Math.PI/180;
+                        if(count==1)
+                        {
+                           z=-z;
+                        }
                      calculate(0,z,"tan");
                   }
                }
