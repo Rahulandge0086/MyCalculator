@@ -49,8 +49,6 @@ body{
     width : 20em;
     height :35em;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     gap: 1px;
     padding : 5px;
     size: initial;
@@ -113,6 +111,7 @@ select{
 {
     .info{
         margin-top : 10vh;
+        margin-left : 0px;
     }
 
     .title{
@@ -125,8 +124,7 @@ select{
     }
 
     .userip{
-        margin: 0;
-        padding: 0;
-        justify-content: center;
+        margin-left: 50px;
+        padding: 0px;
     }
 }
