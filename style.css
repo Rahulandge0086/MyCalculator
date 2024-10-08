@@ -126,5 +126,6 @@ select{
     .userip{
         margin-left: 50px;
         padding: 0px;
+        justify-content: center;
     }
 }
